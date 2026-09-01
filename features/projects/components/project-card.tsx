@@ -51,7 +51,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
             aria-label={`Open repository for ${project.name}`}
             className={buttonVariants({ variant: "link", className: "p-0 h-auto font-semibold" })}
           >
-            Open Repository <ExternalLink className="w-4 h-4 ml-2" />
+            View <ExternalLink className="w-4 h-4 ml-2" />
           </a>
         )}
       </CardFooter>
