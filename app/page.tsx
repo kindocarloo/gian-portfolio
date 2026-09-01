@@ -11,10 +11,10 @@ export default function Home() {
     <main className="min-h-screen bg-background text-foreground flex flex-col items-center justify-start p-8 md:p-24 max-w-5xl mx-auto w-full">
       <HeroSection />
       <AboutSection />
-      <SkillsSection />
       <ProjectsSection />
       <ExperienceSection />
       <EducationSection />
+      <SkillsSection />
       <ContactSection />
     </main>
   );
