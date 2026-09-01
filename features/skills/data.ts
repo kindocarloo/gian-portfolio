@@ -13,18 +13,12 @@ export const skillsData: SkillCategory[] = [
       "Java",
       "C++",
       "C",
-      "8086 Assembly"
+      "8086 Assembly",
     ],
   },
   {
     title: "Frameworks",
-    items: [
-      "Next.js",
-      "React",
-      "Nuxt 3",
-      "Vue",
-      "Node.js"
-    ],
+    items: ["Next.js", "React", "Nuxt 3", "Vue"],
   },
   {
     title: "Databases & Backend",
