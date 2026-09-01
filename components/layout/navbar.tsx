@@ -12,7 +12,7 @@ export function Navbar() {
                 <nav className = "hidden md:flex gap-4">
                     <a href="#about" className="text-sm font-medium hover:underline hover:underline-offset-4">About</a>
                     <a href="#projects" className="text-sm font-medium hover:underline hover:underline-offset-4">Projects</a>
-                    <a href="#experience" className="text-sm font-medium hover:underline hover:underline-offset-4">Experience</a>
+                    <a href="#experiences" className="text-sm font-medium hover:underline hover:underline-offset-4">Experience</a>
                     <a href="#skills" className="text-sm font-medium hover:underline hover:underline-offset-4">Skills</a>
                     <a href="#contact" className="text-sm font-medium hover:underline hover:underline-offset-4">Contact</a>
                 </nav>
