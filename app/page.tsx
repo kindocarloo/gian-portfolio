@@ -3,6 +3,7 @@ import { AboutSection } from "@/features/about/components/about-section";
 import { ProjectsSection } from "@/features/projects/components/projects-section";
 import { ExperienceSection } from "@/features/experience/components/experience-section";
 import { EducationSection } from "@/features/education/components/education-section";
+import { SkillsSection } from "@/features/skills/components/skills-section";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <ProjectsSection />
       <ExperienceSection />
       <EducationSection />
+      <SkillsSection />
     </main>
   );
 }
