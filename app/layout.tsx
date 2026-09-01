@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Courier_Prime, EB_Garamond } from "next/font/google";
 import { ThemeProvider } from "@/components/providers/theme-provider";
+import { Navbar } from "@/components/layout/navbar";
 import "./globals.css";
 
 const fontSans = Courier_Prime({
@@ -41,6 +42,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <Navbar />
           {children}
         </ThemeProvider>
       </body>
