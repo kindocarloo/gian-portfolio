@@ -8,3 +8,20 @@ export const aboutData = {
     "When I am not in the code editor, you can usually find me watching sports, playing Manor Lords, or reading again Monster."
   ]
 };
+
+export const careerFocus = [
+  "Full-Stack Development",
+  "Machine Learning",
+  "Intelligent Systems",
+  "AI Workflow Optimization",
+  "Cybersecurity",
+  "Robotics"
+];
+
+export const personalInterests = [
+  "Sports",
+  "Open-World Games",
+  "Hiking",
+  "Anime",
+  "History"
+];
