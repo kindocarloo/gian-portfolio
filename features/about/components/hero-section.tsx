@@ -40,7 +40,7 @@ const Typewriter = ({ text, delay, startDelay = 0, hideCursorAfterDone = false }
   return (
     <span>
       {displayText}
-      <span className={`animate-pulse opacity-70 ${showCursor ? 'visible' : 'invisible'}`}>|</span>
+      <span className={`inline-block w-[0.08em] h-[0.9em] bg-current align-baseline ml-[0.05em] ${showCursor ? 'animate-[pulse_1s_ease-in-out_infinite] opacity-100' : 'opacity-0'}`} />
     </span>
   );
 };
