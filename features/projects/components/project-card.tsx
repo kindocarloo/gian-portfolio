@@ -10,10 +10,10 @@ interface ProjectCardProps {
 
 export function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <Card className="flex flex-col h-full border-2 shadow-sm transition-all hover:shadow-md">
+    <Card className="group flex flex-col h-full border-2 shadow-sm transition-all duration-300 ease-out hover:-translate-y-1.5 hover:shadow-lg hover:shadow-slate-800/20 hover:border-slate-500">
       <CardHeader className="flex flex-row items-start justify-between gap-4 pb-4">
         <div className="flex flex-col gap-1.5">
-          <h3 className="font-bold text-xl leading-none tracking-tight">
+          <h3 className="font-bold text-xl leading-none tracking-tight transition-colors duration-300 group-hover:text-white">
             {project.name}
           </h3>
           <p className="text-sm text-muted-foreground">
@@ -49,7 +49,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
             target="_blank" 
             rel="noopener noreferrer" 
             aria-label={`Open repository for ${project.name}`}
-            className={buttonVariants({ variant: "link", className: "p-0 h-auto font-semibold" })}
+            className={buttonVariants({ variant: "link", className: "p-0 h-auto font-semibold transition-transform duration-300 group-hover:translate-x-1" })}
           >
             View <ExternalLink className="w-4 h-4 ml-2" />
           </a>
