@@ -7,18 +7,6 @@ export interface Experience {
 
 export const experiencesData: Experience[] = [
   {
-    title: "Full-Stack Developer",
-    organization: "VERIS (Faculty of Computing Supreme Student Council)",
-    duration: "2026 - Present",
-    description: "Developed Services and FAQ pages.",
-  },
-  {
-    title: "Full-Stack Developer",
-    organization: "DormPay",
-    duration: "2026 - Present",
-    description: "Executed QA testing and logged visual bug reports for the dormitory finance management system.",
-  },
-  {
     title: "Student Mentor",
     organization: "Computer Science Student Society",
     duration: "2025 - Present",
