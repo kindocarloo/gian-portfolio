@@ -13,11 +13,11 @@ export function ProjectCard({ project }: ProjectCardProps) {
     <Card className="group flex flex-col h-full border-2 shadow-sm transition-all duration-300 ease-out hover:-translate-y-1.5 hover:shadow-lg hover:shadow-slate-800/20 hover:border-slate-500">
       <CardHeader className="flex flex-row items-start justify-between gap-4 pb-4">
         <div className="flex flex-col gap-1.5">
-          <h3 className="font-bold text-xl leading-none tracking-tight transition-colors duration-300 group-hover:text-white">
+          <h3 className="font-bold text-xl leading-none tracking-tight text-foreground/80 transition-colors duration-300 group-hover:text-foreground dark:group-hover:text-white">
             {project.name}
           </h3>
           <p className="text-sm text-muted-foreground">
-            {project.category}
+            {project.category} • {project.role}
           </p>
         </div>
         <Badge 

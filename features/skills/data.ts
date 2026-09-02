@@ -37,11 +37,6 @@ export const skillsData: SkillCategory[] = [
       "Arduino", 
       "Git",
       "Figma",
-      "GitHub",
-      "Anti-Gravity",
-      "Android Studio",
-      "Vercel",
-      "Jupyter Notebook"
     ],
   }
 ];
