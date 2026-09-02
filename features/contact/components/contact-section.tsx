@@ -8,7 +8,7 @@ export function ContactSection() {
     <section id="contact" className="w-full mt-16 md:mt-24 mb-16">
       <div className="flex flex-col gap-8">
         <h2 className="text-3xl font-bold tracking-tight border-b pb-4">
-          Contact
+          Let's Work Together
         </h2>
         
         <div className="flex flex-wrap items-center justify-between gap-4 sm:gap-6 w-full">
