@@ -24,3 +24,21 @@ export const educationData: Education[] = [
     ],
   },
 ];
+
+export interface Certificate {
+  name: string;
+  issuer: string;
+  year: string;
+  description: string;
+  verifyUrl: string;
+}
+
+export const sampleCertificates: Certificate[] = [
+  {
+    name: "Introduction to Data Science",
+    issuer: "Cisco",
+    year: "2026",
+    description: "Validated foundational knowledge in data analytics, statistical analysis, and core machine learning concepts.",
+    verifyUrl: "https://www.credly.com/badges/2df9031b-ecf7-4a6c-831c-6a0f8c2eec1b",
+  },
+];

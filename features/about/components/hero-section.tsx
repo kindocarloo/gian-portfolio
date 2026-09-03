@@ -51,7 +51,7 @@ export function HeroSection() {
   
   return (
     <section id="hero" className="flex flex-col md:flex-row gap-8 md:gap-12 items-center w-full">
-      <Card className="shrink-0 overflow-hidden border-2 shadow-md relative w-64 h-64 md:w-72 md:h-72 aspect-square">
+      <Card className="shrink-0 overflow-hidden border-2 shadow-md relative w-64 h-64 md:w-72 md:h-72 aspect-square opacity-0 animate-profile-appear">
         <Image
           src="/images/GianFormal.jpg"
           alt={aboutData.name}
